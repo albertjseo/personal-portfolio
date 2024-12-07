@@ -48,7 +48,7 @@ export default function About() {
                         <h1>{`Hi! I'm Albert Seo`}</h1>
                         <p>
                             I'm a data analyst/scientist who is interested in exploring computer science and data analytics.
-                            I have 4+ years of experience working in a data-driven setting; these experiences have helped me develop a
+                            I have 5+ years of experience working in a data-driven setting; these experiences have helped me develop a
                             passionate, mature, and responsible approach for data in a technology advancing setting.
                         </p>
                     </Col>
