@@ -52,7 +52,7 @@ export default function Projects() {
                 <Row>
                     <Col>
                         <h2>PROJECTS</h2>
-                        <p>HELPER TEXT</p>
+                        <p> </p>
                         <TabContainer id="project-tabs" defaultActivekey="first">
                               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
