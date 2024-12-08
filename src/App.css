@@ -262,8 +262,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .about img {
   animation: updown 3s linear infinite;
-  width: 100%;
-  height: auto;
 }
 @keyframes updown {
     0% {
@@ -288,7 +286,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-bx {
     background: #21222A;
-
     text-align: center;
     padding: 60px 50px;
     margin-top: -60px;
