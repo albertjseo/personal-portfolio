@@ -48,9 +48,24 @@ export default function About() {
                         <h1>{`Hi! I'm Albert Seo`}</h1>
                         <p>
                             I'm a data analyst/scientist who is interested in exploring computer science and data analytics.
-                            I have 5+ years of experience working in a data-driven setting; these experiences have helped me develop a
-                            passionate, mature, and responsible approach for data in a technology advancing setting.
+                            I have 5+ years of experience working in a data-driven setting at Seattle Children's Research Institute and the University of Washington.
+                            In combination with my programming skills, I hope to use my experience as a critical thinker, problem solver, and scientist to further expand and
+                            contribute to the data science and biomedical fields.
                         </p>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <h2>EDUCATION</h2>
+                        <h5>
+                            <li>
+                                M.Eng Bioengineering: Computational Biology [2022 - 2027]
+                            </li>
+                        </h5>
+                        <h5>
+                            <li>
+                                B.S. Physics: Biophysics [2014 - 2020]
+                            </li>
+                        </h5>
                     </Col>
                     <Col>
                         <img src={headerImg} alt="About Img" />
