@@ -37,7 +37,7 @@ export default function NavBar() {
                 <div className="col">
                     <div className="skill-bx">
                         <h2>
-                            Skills
+                            SKILLS
                         </h2>
                         <p> <br></br>
                         </p>
@@ -45,27 +45,27 @@ export default function NavBar() {
                             <div className="item">
                                 {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
                                 <img src={python} alt="Image"/>
-                                <h5>Python</h5>
+                                <h2>Python</h2>
                             </div>
                             <div className="item">
                                 <img src={html} alt="Image"/>
-                                <h5>HTML</h5>
+                                <h2>HTML</h2>
                             </div>
                             <div className="item">
                                 <img src={css} alt="Image"/>
-                                <h5>CSS</h5>
+                                <h2>CSS</h2>
                             </div>
                             <div className="item">
                                 <img src={js} alt="Image"/>
-                                <h5>JavaScript</h5>
+                                <h2>JavaScript</h2>
                             </div>
                             <div className="item">
                                 <img src={datascience} alt="Image"/>
-                                <h5>Data Science</h5>
+                                <h2>Data Science</h2>
                             </div>
                             <div className="item">
                                 <img src={wetlab} alt="Image"/>
-                                <h5>Wet Lab</h5>
+                                <h2>Wet Lab</h2>
                             </div>
                         </Carousel>
                     </div>
