@@ -282,6 +282,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
     padding: 0;
     position: relative;
+    color: white;
 }
 .skill-bx {
     background: #21222A;

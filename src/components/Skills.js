@@ -39,8 +39,7 @@ export default function NavBar() {
                         <h2>
                             Skills
                         </h2>
-                        <p>
-                            SKILLS <br></br>
+                        <p> <br></br>
                         </p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
