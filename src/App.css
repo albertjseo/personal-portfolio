@@ -408,6 +408,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
+.project--title {
+    color: white;
+}
+
 .project-imgbx:hover .project-text {
   top: 50%;
   opacity: 1;
