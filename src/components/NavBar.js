@@ -7,6 +7,8 @@ import linkedin from "../assets/img/linkedin.svg";
 import github from "../assets/img/github2.png";
 import pubMed from "../assets/img/book.png";
 
+
+
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, seScrolled] = useState(false);
@@ -32,7 +34,7 @@ export default function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo"/>
+            <h2 className="nav-brand-name">Albert Seo</h2>
         </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className="navbar-toggler-icon"></span>
