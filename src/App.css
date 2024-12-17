@@ -448,7 +448,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact h2 {
 	font-size: 45px;
 	font-weight: 700;
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .contact form input, .contact form textarea {
   width: 100%;
