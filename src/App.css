@@ -207,6 +207,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* About */
 .about {
+  width: 100%;
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: none;
@@ -279,6 +280,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Skills */
 .skill {
+    width: 100%;
     padding: 0;
     position: relative;
     color: white;
@@ -324,6 +326,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Projects */
 .project {
+  width: 100%;
   padding: 80px 0;
   position: relative;
   background-color: #21222A;
@@ -513,6 +516,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Footer */
 .footer {
+  width: 100%;
   padding: 0 0 50px 0;
   background-image: none;
   background-position: center center;
