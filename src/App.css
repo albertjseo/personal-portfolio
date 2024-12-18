@@ -261,6 +261,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .about img {
+  width: 100%;
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
