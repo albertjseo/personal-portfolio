@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import React, { useEffect, useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import logo from "../assets/img/logo.svg";
 import linkedin from "../assets/img/linkedin.svg";
 import github from "../assets/img/github2.png";
@@ -33,7 +33,7 @@ export default function NavBar() {
   }
 
   return (
-    <Router>
+    <BrowserRouter>
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
           <Container>
             <Navbar.Brand href="#home">
@@ -63,6 +63,6 @@ export default function NavBar() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-    </Router>
+    </BrowserRouter>
   );
 }
