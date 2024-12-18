@@ -43,7 +43,7 @@ export default function About() {
         <section className="about" id="home">
             <Container>
                 <Row className="align-items-center">
-                    <Col>
+                    <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Personal Website</span>
                         <h1>{`Hi! I'm Albert Seo`}</h1>
                         <p>
@@ -67,7 +67,7 @@ export default function About() {
                             </li>
                         </h5>
                     </Col>
-                    <Col>
+                    <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="About Img" />
                     </Col>
                 </Row>
