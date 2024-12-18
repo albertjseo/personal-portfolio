@@ -34,6 +34,7 @@ body {
   background-color: #21222A;
   color: white;
   font-family: 'Centra', sans-serif;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -261,7 +262,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .about img {
-    min-width:100%;
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
