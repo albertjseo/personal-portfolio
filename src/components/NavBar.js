@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import React, { useEffect, useState } from "react";
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 import logo from "../assets/img/logo.svg";
 import linkedin from "../assets/img/linkedin.svg";
@@ -57,7 +57,7 @@ export default function NavBar() {
 
                   </div>
                   <HashLink to='#connect'>
-                     <button className="contact"><span>Let’s Connect</span></button>
+                      <button className="contact"><span>Let’s Connect</span></button>
                   </HashLink>
               </span>
             </Navbar.Collapse>
