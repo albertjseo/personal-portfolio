@@ -57,7 +57,7 @@ export default function NavBar() {
 
                   </div>
                   <HashLink to='#connect'>
-                    <button className="contact"><span>Let’s Connect</span></button>
+                     <button className="contact"><span>Let’s Connect</span></button>
                   </HashLink>
               </span>
             </Navbar.Collapse>
