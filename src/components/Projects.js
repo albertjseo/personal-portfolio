@@ -9,6 +9,7 @@ import projImg3 from "../assets/img/projImg3.png"
 import projImg4 from "../assets/img/projImg4.png"
 import projImg5 from "../assets/img/projImg5.png"
 import projImg6 from "../assets/img/projImg6.png"
+import projImg7 from "../assets/img/projImg7.png"
 import Container from "react-bootstrap/Container";
 
 
@@ -49,6 +50,11 @@ export default function Projects() {
             title: <a href="https://github.com/albertjseo/survey_sample" target="_blank" className="project--title">Simple Survey</a>,
           description: "JavaScript, React, CSS, HTML",
           imgUrl: projImg6,
+        },
+        {
+            title: <a href="https://github.com/albertjseo/PBMC-metrics" target="_blank" className="project--title">Scanpy Practice</a>,
+          description: "Python",
+          imgUrl: projImg7,
         }
     ];
 
