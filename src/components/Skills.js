@@ -10,7 +10,7 @@ import wetlab from "../assets/img/wetlab.png";
 import culture from "../assets/img/bacteria.png"
 import molecular from "../assets/img/molecular.png"
 import rt_pcr_machine from "../assets/img/rt_pcr_machine.png"
-import 96well from "../assets/img/well.png"
+import well from "../assets/img/well.png"
 import { Row } from "react-bootstrap";
 
 export default function NavBar() {
