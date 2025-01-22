@@ -7,6 +7,10 @@ import css from "../assets/img/css.png";
 import js from "../assets/img/js.png";
 import datascience from "../assets/img/datascience.png";
 import wetlab from "../assets/img/wetlab.png";
+import culture from "../assets/img/bacteria.png"
+import molecular from "../assets/img/molecular.png"
+import rt_pcr_machine from "../assets/img/rt_pcr_machine.png"
+import 96well from "../assets/img/well.png"
 import { Row } from "react-bootstrap";
 
 export default function NavBar() {
@@ -62,6 +66,22 @@ export default function NavBar() {
                             <div className="item">
                                 <img src={datascience} alt="Image"/>
                                 <h2>Data Science</h2>
+                            </div>
+                            <div className="item">
+                                <img src={culture} alt="Image"/>
+                                <h2>Cell Culture</h2>
+                            </div>
+                            <div className="item">
+                                <img src={molecular} alt="Image"/>
+                                <h2>Molecular Biology</h2>
+                            </div>
+                            <div className="item">
+                                <img src={rt_pcr_machine} alt="Image"/>
+                                <h2>PCR</h2>
+                            </div>
+                            <div className="item">
+                                <img src={well} alt="Image"/>
+                                <h2>ELISA</h2>
                             </div>
                             <div className="item">
                                 <img src={wetlab} alt="Image"/>
