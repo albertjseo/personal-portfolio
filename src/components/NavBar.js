@@ -53,7 +53,7 @@ export default function NavBar() {
                   <div className="social-icon">
                       <a href="https://www.linkedin.com/in/albertjseo/" target="_blank"><img src={linkedin} alt="logo"/></a>
                       <a href="https://github.com/albertjseo" target="_blank"><img src={github} alt="logo"/></a>
-                      <a href="https://pubmed.ncbi.nlm.nih.gov/?term=%22Seo%20AJ%22%5BAuthor%5D" target="_blank"><img src={pubMed} alt="logo"/></a>
+                      <a href="https://pubmed.ncbi.nlm.nih.gov/?term=albert+seo" target="_blank"><img src={pubMed} alt="logo"/></a>
 
                   </div>
                   <HashLink to='#connect'>
