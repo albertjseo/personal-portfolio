@@ -17,6 +17,11 @@ export default function Projects() {
 
     const projectInfo = [
         {
+            title: <a href="https://github.com/albertjseo/PBMC-metrics" target="_blank" className="project--title">Scanpy Practice</a>,
+          description: "Python",
+          imgUrl: projImg7,
+        },
+        {
             title: <a href="https://github.com/albertjseo/viral-integration-simulation" target="_blank" className="project--title">Viral Integration Simulation - On Going</a>,
           description: "Python, Snakemake",
           imgUrl: projImg0,
@@ -51,11 +56,6 @@ export default function Projects() {
           description: "JavaScript, React, CSS, HTML",
           imgUrl: projImg6,
         },
-        {
-            title: <a href="https://github.com/albertjseo/PBMC-metrics" target="_blank" className="project--title">Scanpy Practice</a>,
-          description: "Python",
-          imgUrl: projImg7,
-        }
     ];
 
     return (
