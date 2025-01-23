@@ -45,7 +45,11 @@ export default function About() {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Personal Website</span>
-                        <h1>{`Hi! I'm Albert Seo`}</h1>
+
+                        <div className="typewriter">
+                            <h1>Hi, I'm Albert Seo!</h1>
+                        </div>
+
                         <p>
                             I'm a data analyst/scientist who is interested in exploring computer science and data analytics.
                             I have 5+ years of experience working in a data-driven setting at Seattle Children's Research Institute and the University of Washington.

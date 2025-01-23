@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import React, { useEffect, useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter } from "react-router-dom";
-import logo from "../assets/img/logo.svg";
 import linkedin from "../assets/img/linkedin.svg";
 import github from "../assets/img/github2.png";
 import pubMed from "../assets/img/book.png";
