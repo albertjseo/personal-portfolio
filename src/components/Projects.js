@@ -18,7 +18,7 @@ export default function Projects() {
 
     const projectInfo = [
         {
-            title: <a href="https://github.com/albertjseo/covid19-mutations" target="_blank" className="project--title">Simple Survey</a>,
+            title: <a href="https://github.com/albertjseo/covid19-mutations" target="_blank" className="project--title">Covid-19 Mutation Tracking</a>,
           description: "Python, BioPython",
           imgUrl: projImg8,
         },
