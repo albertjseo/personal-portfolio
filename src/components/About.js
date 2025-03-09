@@ -51,10 +51,10 @@ export default function About() {
                         </div>
 
                         <p>
-                            I'm a data analyst/scientist who is interested in exploring computer science and data analytics.
-                            I have 5+ years of experience working in a data-driven setting at Seattle Children's Research Institute and the University of Washington.
-                            In combination with my programming skills, I hope to use my experience as a critical thinker, problem solver, and scientist to further expand and
-                            contribute to the data science and biomedical fields.
+                            I'm a data analyst with a strong passion and focus on computational biology.
+                            With 5+ years of experience working in a data-driven setting at Seattle Children's Research Institute and the University of Washington, I've developed
+                            a deep understanding of data-driven environments and the biomedical field. Combining my programming skills and critical thinking, I
+                            aim to leverage my expertise to contribute to advancements in data science and the biomedical field.
                         </p>
                         <br></br>
                         <br></br>
