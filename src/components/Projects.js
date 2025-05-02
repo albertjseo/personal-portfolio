@@ -11,12 +11,18 @@ import projImg5 from "../assets/img/projImg5.png"
 import projImg6 from "../assets/img/projImg6.png"
 import projImg7 from "../assets/img/projImg7.png"
 import projImg8 from "../assets/img/projImg8.png"
+import projImg9 from "../assets/img/projImg9.png"
 import Container from "react-bootstrap/Container";
 
 
 export default function Projects() {
 
     const projectInfo = [
+        {
+            title: <a href="https://github.com/albertjseo/ovarian-cancer-metrics" target="_blank" className="project--title">Ovarian Cancer Analysis</a>,
+          description: "Python, ScanPy, Seaborn, Matplotlib",
+          imgUrl: projImg9,
+        },
         {
             title: <a href="https://github.com/albertjseo/covid19-mutations" target="_blank" className="project--title">Covid-19 Mutation Characterization</a>,
           description: "Python, BioPython",
