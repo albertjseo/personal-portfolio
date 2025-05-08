@@ -22,7 +22,7 @@ export const Contact = () => {
     const submit = async (e) => {
         e.preventDefault();
         setButtonText("Sending...")
-        let response = await fetch("/api/server", {
+        let response = await fetch("https://albertjseo.com/api/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "Application/json;charset=utf-8",
