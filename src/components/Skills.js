@@ -52,18 +52,6 @@ export default function NavBar() {
                                 <h2>Python</h2>
                             </div>
                             <div className="item">
-                                <img src={html} alt="Image"/>
-                                <h2>HTML</h2>
-                            </div>
-                            <div className="item">
-                                <img src={css} alt="Image"/>
-                                <h2>CSS</h2>
-                            </div>
-                            <div className="item">
-                                <img src={js} alt="Image"/>
-                                <h2>JavaScript</h2>
-                            </div>
-                            <div className="item">
                                 <img src={datascience} alt="Image"/>
                                 <h2>Data Science</h2>
                             </div>
@@ -86,6 +74,18 @@ export default function NavBar() {
                             <div className="item">
                                 <img src={wetlab} alt="Image"/>
                                 <h2>Wet Lab</h2>
+                            </div>
+                            <div className="item">
+                                <img src={html} alt="Image"/>
+                                <h2>HTML</h2>
+                            </div>
+                            <div className="item">
+                                <img src={css} alt="Image"/>
+                                <h2>CSS</h2>
+                            </div>
+                            <div className="item">
+                                <img src={js} alt="Image"/>
+                                <h2>JavaScript</h2>
                             </div>
                         </Carousel>
                     </div>
