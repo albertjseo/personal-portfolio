@@ -48,6 +48,10 @@ export default function NavBar() {
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
+                                <img src={js} alt="Image"/>
+                                <h2>JavaScript</h2>
+                            </div>
+                            <div className="item">
                                 <img src={python} alt="Image"/>
                                 <h2>Python</h2>
                             </div>
@@ -82,10 +86,6 @@ export default function NavBar() {
                             <div className="item">
                                 <img src={css} alt="Image"/>
                                 <h2>CSS</h2>
-                            </div>
-                            <div className="item">
-                                <img src={js} alt="Image"/>
-                                <h2>JavaScript</h2>
                             </div>
                         </Carousel>
                     </div>
