@@ -12,12 +12,18 @@ import projImg6 from "../assets/img/projImg6.png"
 import projImg7 from "../assets/img/projImg7.png"
 import projImg8 from "../assets/img/projImg8.png"
 import projImg9 from "../assets/img/projImg9.png"
+import projImg10 from "../assets/img/projImg10.png"
 import Container from "react-bootstrap/Container";
 
 
 export default function Projects() {
 
     const projectInfo = [
+        {
+            title: <a href="https://github.com/albertjseo/breast-cancer-histopathology-classifier" target="_blank" className="project--title">Breast Cancer Histopathology Classifier</a>,
+          description: "Python, SVM, SciPy",
+          imgUrl: projImg10,
+        },
         {
             title: <a href="https://github.com/albertjseo/ovarian-cancer-metrics" target="_blank" className="project--title">Ovarian Cancer Analysis</a>,
           description: "Python, ScanPy, Seaborn, Matplotlib",
