@@ -13,12 +13,18 @@ import projImg7 from "../assets/img/projImg7.png"
 import projImg8 from "../assets/img/projImg8.png"
 import projImg9 from "../assets/img/projImg9.png"
 import projImg10 from "../assets/img/projImg10.png"
+import projImg11 from "../assets/img/projImg11.png"
 import Container from "react-bootstrap/Container";
 
 
 export default function Projects() {
 
     const projectInfo = [
+        {
+            title: <a href="https://github.com/albertjseo/connectome-explorer" target="_blank" className="project--title">Connectome Explorer</a>,
+          description: "Python, Pandas, Networkx, Matplotlib",
+          imgUrl: projImg11,
+        },
         {
             title: <a href="https://github.com/albertjseo/breast-cancer-histopathology-classifier" target="_blank" className="project--title">Breast Cancer Histopathology Classifier</a>,
           description: "Python, SVM, SciPy",
