@@ -95,10 +95,12 @@ span.navbar-text {
     typing 3.5s steps(45, end),
     blink-caret .75s step-end infinite;
 }
+
 @keyframes typing {
   from {max-width: 0 }
   to {max-width: 100% }
 }
+
 @keyframes blink-caret {
   from, to {border-color: transparent}
   50% {border-color: white;}
@@ -674,4 +676,56 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav-brand-name {
+    font-size: 24px;
+    white-space: normal;
+    text-align: center;
+    width: auto;
+  }
+
+  nav.navbar a.navbar-brand {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-link.navbar-link {
+    margin-left: 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .about h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 16px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .navbar-text button {
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .social-icon a {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-icon a img {
+    width: 50%;
+  }
 }
