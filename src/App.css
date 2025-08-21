@@ -83,6 +83,12 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+
+.typewriter {
+    text-align: left;
+    margin: 0;
+}
+
 .typewriter h1 {
   width: auto;
   display: inline-block;
