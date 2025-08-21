@@ -98,7 +98,7 @@ span.navbar-text {
 
 @keyframes typing {
   from { max-width: 0 }
-  to { max-width: 14ch }
+  to { max-width: 19ch }
 }
 
 @keyframes blink-caret {
