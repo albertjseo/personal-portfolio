@@ -87,17 +87,19 @@ span.navbar-text {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 3.5s steps(19, end), blink-caret .75s step-end infinite;
+  border-right: 0.15em solid white;
+  animation: typing 3s steps(20, end), blink-caret 0.75s step-end infinite;
+  max-width: 0;
 }
 
 @keyframes typing {
   from { max-width: 0 }
-  to { max-width: 19ch }
+  to { max-width: 20ch }
 }
 
 @keyframes blink-caret {
-  from, to {border-color: transparent}
-  50% {border-color: white;}
+  from, to { border-color: transparent }
+  50% { border-color: white }
 }
 
 .social-icon {
