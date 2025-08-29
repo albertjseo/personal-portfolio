@@ -62,7 +62,7 @@ export default function About() {
                         <h2>EDUCATION</h2>
                         <h5>
                             <li>
-                                M.Eng Bioengineering: Computational Biology [2022 - 2027]
+                                M.Eng Bioengineering: Computational Biology [2022 - 2026]
                             </li>
                         </h5>
                         <h5>
