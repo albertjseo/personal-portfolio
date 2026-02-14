@@ -23,8 +23,10 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+    background-color: #21222A;
+    overflow-x: hidden;
 }
 
 body {
@@ -58,8 +60,10 @@ nav.navbar.scrolled {
   background-color: #21222A;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: auto;
+    max-width: 100%;
 }
+
 .nav-brand-name {
     font-weight: 700;
     color: white;
