@@ -16,9 +16,24 @@ import projImg8 from "../assets/img/projImg8.png";
 import projImg9 from "../assets/img/projImg9.png";
 import projImg10 from "../assets/img/projImg10.png";
 import projImg11 from "../assets/img/projImg11.png";
+import projImg12 from "../assets/img/projImg12.png";
 
 export default function Projects() {
   const projectInfo = [
+    {
+      title: (
+        <a
+          href="https://github.com/albertjseo/blast_app"
+          target="_blank"
+          rel="noreferrer"
+          className="project--title"
+        >
+          BLAST App
+        </a>
+      ),
+      description: "Python, HTML, Jinja, Flask, BLAST API",
+      imgUrl: projImg12,
+    },
     {
       title: (
         <a
