@@ -740,10 +740,3 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-.section-divider {
-  width: 50%;
-  height: 2px;
-  margin: 30px auto 50px auto;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  border-radius: 50px;
-}
