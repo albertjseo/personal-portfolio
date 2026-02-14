@@ -1,6 +1,5 @@
-import { Row, Col, TabContainer, TabContent, TabPane } from "react-bootstrap";
+import { Row, Col, Accordion } from "react-bootstrap";
 import React from "react";
-import Nav from "react-bootstrap/Nav";
 import { PublicationCard } from "./PublicationCard";
 import Container from "react-bootstrap/Container";
 
@@ -23,7 +22,6 @@ export default function Publications() {
           Persistent immune imprinting occurs after vaccination with the COVID-19 XBB.1.5 mRNA booster in humans
         </a>
       ),
-      description: "",
       imgUrl: lab,
     },
     {
@@ -37,7 +35,6 @@ export default function Publications() {
           Siglec-9 is an inhibitory receptor on human mast cells in vitro
         </a>
       ),
-      description: "",
       imgUrl: bio,
     },
     {
@@ -51,7 +48,6 @@ export default function Publications() {
           Mast cell-derived factor XIIIA contributes to sexual dimorphic defense against group B streptococcal infections
         </a>
       ),
-      description: "",
       imgUrl: cell,
     },
     {
@@ -65,7 +61,6 @@ export default function Publications() {
           Mapping immunodominant sites on the MERS-CoV spike glycoprotein targeted by infection-elicited antibodies in humans
         </a>
       ),
-      description: "",
       imgUrl: ab,
     },
     {
@@ -79,7 +74,6 @@ export default function Publications() {
           Mast cell surfaceome characterization reveals CD98 heavy chain is critical for optimal cell function
         </a>
       ),
-      description: "",
       imgUrl: crispr,
     },
   ];
@@ -90,29 +84,20 @@ export default function Publications() {
         <Row>
           <Col>
             <h2>PUBLICATIONS</h2>
-            <p></p>
 
-            <TabContainer id="publication-tabs" defaultActiveKey="first">
-              <Nav
-                variant="pills"
-                className="nav-pills mb-5 justify-content-center align-items-center"
-                id="pills-tab"
-              >
-                <Nav.Item>
-                  <Nav.Link eventKey="first">For More Information</Nav.Link>
-                </Nav.Item>
-              </Nav>
-
-              <TabContent>
-                <TabPane eventKey="first">
+            <Accordion alwaysOpen={false}>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>For More Information</Accordion.Header>
+                <Accordion.Body>
                   <Row>
                     {projectInfo.map((publication, index) => (
                       <PublicationCard key={index} {...publication} />
                     ))}
                   </Row>
-                </TabPane>
-              </TabContent>
-            </TabContainer>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+
           </Col>
         </Row>
       </Container>
