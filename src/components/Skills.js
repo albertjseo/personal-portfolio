@@ -11,6 +11,8 @@ import culture from "../assets/img/bacteria.png"
 import molecular from "../assets/img/molecular.png"
 import rt_pcr_machine from "../assets/img/rt_pcr_machine.png"
 import well from "../assets/img/well.png"
+import chimera from "../assets/img/chimera.png"
+import paup from "../assets/img/paup.png"
 import { Row } from "react-bootstrap";
 
 export default function NavBar() {
@@ -54,6 +56,14 @@ export default function NavBar() {
                             <div className="item">
                                 <img src={python} alt="Image"/>
                                 <h2>Python</h2>
+                            </div>
+                            <div className="item">
+                                <img src={paup} alt="Image"/>
+                                <h2>PAUP</h2>
+                            </div>
+                            <div className="item">
+                                <img src={chimera} alt="Image"/>
+                                <h2>Chimera</h2>
                             </div>
                             <div className="item">
                                 <img src={datascience} alt="Image"/>
