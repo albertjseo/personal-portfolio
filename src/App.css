@@ -740,3 +740,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+.hidden-tab {
+  display: none !important;
+}
+

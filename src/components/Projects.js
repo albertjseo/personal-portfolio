@@ -205,6 +205,11 @@ export default function Projects() {
                 <Nav.Item>
                   <Nav.Link eventKey="first">For More Information</Nav.Link>
                 </Nav.Item>
+
+                {/* Hidden tab to allow collapse */}
+                <Nav.Item className="hidden-tab">
+                  <Nav.Link eventKey="closed"></Nav.Link>
+                </Nav.Item>
               </Nav>
 
               <TabContent>
@@ -216,8 +221,8 @@ export default function Projects() {
                   </Row>
                 </TabPane>
 
-                <TabPane eventKey="second">TEXT</TabPane>
-                <TabPane eventKey="third">TEXT</TabPane>
+                {/* Empty pane for collapsed state */}
+                <TabPane eventKey="closed"></TabPane>
               </TabContent>
             </TabContainer>
           </Col>
