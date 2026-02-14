@@ -11,13 +11,16 @@ export default function About() {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
 
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
+    /* eslint-disable react-hooks/exhaustive-deps */
+    useEffect(() => {
+      let ticker = setInterval(() => {
+        tick();
+      }, delta);
 
-    return () => clearInterval(ticker);
-  }, [text]);
+      return () => clearInterval(ticker);
+    }, [text]);
+    /* eslint-enable react-hooks/exhaustive-deps */
+
 
   const tick = () => {
     let i = loopNum % toRotate.length;
