@@ -72,7 +72,7 @@ export default function Skills() {
                 </div>
 
                 <div className="item">
-                  <img src={js} alt="Supercomputer" />
+                  <img src={supercomputer} alt="Supercomputer" />
                   <h2>HPC CLuster</h2>
                 </div>
 
