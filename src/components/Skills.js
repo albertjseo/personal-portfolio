@@ -14,6 +14,7 @@ import rt_pcr_machine from "../assets/img/rt_pcr_machine.png";
 import well from "../assets/img/well.png";
 import chimera from "../assets/img/chimera.png";
 import paup from "../assets/img/paup.png";
+import supercomputer from "../assets/img/supercomputer.png";
 
 import { Row, Col, Container } from "react-bootstrap";
 
@@ -68,6 +69,11 @@ export default function Skills() {
                 <div className="item">
                   <img src={chimera} alt="Chimera" />
                   <h2>Chimera</h2>
+                </div>
+
+                <div className="item">
+                  <img src={js} alt="Supercomputer" />
+                  <h2>HPC CLuster</h2>
                 </div>
 
                 <div className="item">
