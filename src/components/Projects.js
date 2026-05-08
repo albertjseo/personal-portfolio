@@ -1,6 +1,5 @@
-import { Row, Col, TabContainer, TabContent, TabPane } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import React from "react";
-import Nav from "react-bootstrap/Nav";
 import { ProjectCard } from "./ProjectCard";
 import Container from "react-bootstrap/Container";
 
@@ -209,32 +208,13 @@ export default function Projects() {
       <Container>
         <Row>
           <Col>
-            <h2>PROJECTS</h2>
+            <h2>Projects</h2>
 
-            <TabContainer id="project-tabs" defaultActiveKey="first">
-              <Nav
-                variant="pills"
-                className="nav-pills mb-5 justify-content-center align-items-center"
-                id="pills-tab"
-              >
-                <Nav.Item>
-                  <Nav.Link eventKey="first">For More Information</Nav.Link>
-                </Nav.Item>
-              </Nav>
-
-              <TabContent>
-                <TabPane eventKey="first">
-                  <Row>
-                    {projectInfo.map((project, index) => (
-                      <ProjectCard key={index} {...project} />
-                    ))}
-                  </Row>
-                </TabPane>
-
-                <TabPane eventKey="second">TEXT</TabPane>
-                <TabPane eventKey="third">TEXT</TabPane>
-              </TabContent>
-            </TabContainer>
+            <Row>
+              {projectInfo.map((project, index) => (
+                <ProjectCard key={index} {...project} />
+              ))}
+            </Row>
           </Col>
         </Row>
       </Container>

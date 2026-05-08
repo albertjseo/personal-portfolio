@@ -44,7 +44,7 @@ export default function Skills() {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>SKILLS</h2>
+              <h2>Skills</h2>
 
               <Carousel
                 responsive={responsive}

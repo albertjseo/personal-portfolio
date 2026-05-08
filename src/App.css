@@ -314,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Skills */
 .skill {
     width: 100%;
-    padding: 0;
+    padding: 80px 0 0 0;
     position: relative;
     color: white;
     background-color: #21222A;
@@ -331,6 +331,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-weight: 700;
     color: white;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .skill p {
@@ -369,6 +370,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 80px;
 }
 .project p {
   color: white;
@@ -487,6 +489,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 80px;
 }
 .publication p {
   color: white;
@@ -739,5 +742,3 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 50%;
   }
 }
-
-

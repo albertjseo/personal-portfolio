@@ -1,6 +1,5 @@
-import { Row, Col, TabContainer, TabContent, TabPane } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import React from "react";
-import Nav from "react-bootstrap/Nav";
 import { PublicationCard } from "./PublicationCard";
 import Container from "react-bootstrap/Container";
 
@@ -89,30 +88,14 @@ export default function Publications() {
       <Container>
         <Row>
           <Col>
-            <h2>PUBLICATIONS</h2>
+            <h2>Publications</h2>
             <p></p>
 
-            <TabContainer id="publication-tabs" defaultActiveKey="first">
-              <Nav
-                variant="pills"
-                className="nav-pills mb-5 justify-content-center align-items-center"
-                id="pills-tab"
-              >
-                <Nav.Item>
-                  <Nav.Link eventKey="first">For More Information</Nav.Link>
-                </Nav.Item>
-              </Nav>
-
-              <TabContent>
-                <TabPane eventKey="first">
-                  <Row>
-                    {projectInfo.map((publication, index) => (
-                      <PublicationCard key={index} {...publication} />
-                    ))}
-                  </Row>
-                </TabPane>
-              </TabContent>
-            </TabContainer>
+            <Row>
+              {projectInfo.map((publication, index) => (
+                <PublicationCard key={index} {...publication} />
+              ))}
+            </Row>
           </Col>
         </Row>
       </Container>
