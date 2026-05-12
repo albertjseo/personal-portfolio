@@ -24,6 +24,21 @@ body {
   background: radial-gradient(circle at top, #111827 0, #020617 45%, #000 100%);
   color: var(--text-main);
   scroll-behavior: smooth;
+}.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 30;
+}
+
+.nav-toggle span {
+  width: 24px;
+  height: 3px;
+  background: var(--text-muted);
+  border-radius: 2px;
 }
 
 a {
@@ -79,6 +94,48 @@ a {
 .nav-links a:hover::after {
   width: 100%;
 }
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 30;
+}
+
+.nav-toggle span {
+  width: 24px;
+  height: 3px;
+  background: var(--text-muted);
+  border-radius: 2px;
+}
+
+/* === MOBILE === */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgba(5, 8, 22, 0.95);
+    backdrop-filter: blur(16px);
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    border-radius: 0 0 12px 12px;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+}
+
 
 /* === SECTIONS === */
 .section {
