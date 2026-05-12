@@ -390,10 +390,14 @@ a {
 
 .experience-logo,
 .experience-logo-small {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
   object-fit: contain;
-  flex-shrink: 0;
+  object-position: center;
+  display: flex;
 }
 
 .experience-content {

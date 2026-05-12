@@ -18,9 +18,9 @@ export default function Experience() {
           <div className="experience-content">
             <div className="timeline-title">Bioinformatician</div>
             <div className="timeline-meta">University of Illinois Urbana-Champaign - GCA Lab</div>
+           <div className="timeline-meta">March 2026 - Present</div>
           </div>
         </div>
-        <p className="timeline-text"></p>
       </div>
 
       <br />
@@ -31,9 +31,9 @@ export default function Experience() {
           <div className="experience-content">
             <div className="timeline-title">Data Analyst III, Data Analyst II</div>
             <div className="timeline-meta">Costco Corporate</div>
+            <div className="timeline-meta">June 2024 - Present</div>
           </div>
         </div>
-        <p className="timeline-text"></p>
       </div>
 
       <br />
@@ -44,9 +44,9 @@ export default function Experience() {
           <div className="experience-content">
             <div className="timeline-title">Research Scientist/Engineer</div>
             <div className="timeline-meta">University of Washington - Veesler Lab</div>
+            <div className="timeline-meta">June 2023 – May 2024</div>
           </div>
         </div>
-        <p className="timeline-text"></p>
       </div>
 
       <br />
@@ -57,9 +57,9 @@ export default function Experience() {
           <div className="experience-content">
             <div className="timeline-title">Research Technician II, I, Student Helper, Volunteer</div>
             <div className="timeline-meta">Seattle Children's Research Institute - Piliponsky Lab</div>
+            <div className="timeline-meta">June 2019 – June 2023</div>
           </div>
         </div>
-        <p className="timeline-text"></p>
       </div>
 
       {/* Separator */}
@@ -87,7 +87,7 @@ export default function Experience() {
         <div className="experience-item">
           <img src="/logos/uw-logo.png" alt="UW Logo" className="experience-logo" />
           <div className="experience-content">
-            <div className="timeline-title">Bachelor's of Science</div>
+            <div className="timeline-title">Bachelor of Science</div>
             <div className="timeline-meta"><b>Physics: Biophysics</b></div>
             <div className="timeline-meta">University of Washington</div>
           </div>
