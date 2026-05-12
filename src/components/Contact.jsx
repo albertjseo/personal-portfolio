@@ -16,7 +16,7 @@ export default function Contact() {
         </div>
 
         <div className="glass-card fade-up">
-          <h3>Find me</h3>
+          <h3>Connect with Me</h3>
           <div className="contact-links">
             <a className="contact-link" href="mailto:your.email@example.com">Email</a>
             <a className="contact-link" href="https://www.linkedin.com/in/albertjseo" target="_blank" rel="noreferrer">LinkedIn</a>

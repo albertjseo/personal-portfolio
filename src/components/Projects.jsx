@@ -3,7 +3,7 @@ export default function Projects() {
     <section id="projects" className="section">
       <h2 className="section-title">Projects & Publications</h2>
       <p className="section-subtitle">
-        Selected work spanning protein structure prediction, sequence analysis, and data‑driven modeling.
+        Selected work spanning protein structure prediction, data analysis, and data‑driven modeling.
       </p>
 
       {/* Separator */}

@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-layout">
         <div className="glass-card fade-up">
           <p className="about-text">
-            I’m a computational scientist with a foundation in molecular biology and hands‑on experience building data and bioinformatics pipelines.
+            I’m a computational scientist with a foundation in molecular biology and hands‑on experience building data pipelines.
             I develop systems that transform raw data into interpretable, reproducible insights—spanning analysis, workflows, and large‑scale comparative modeling.
           </p>
 
