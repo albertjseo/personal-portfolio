@@ -10,8 +10,8 @@ export default function Contact() {
 
         <div className="glass-card fade-up">
           <p className="about-text">
-            I’d love to talk. I enjoy designing workflows that are technically sound and practical for
-            scientific teams.
+            I enjoy designing workflows that are technically sound and practical for scientific teams.
+            If you believe my background aligns with your needs, I’d be glad to connect.
           </p>
         </div>
 
