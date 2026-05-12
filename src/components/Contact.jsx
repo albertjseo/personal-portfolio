@@ -21,6 +21,7 @@ export default function Contact() {
             <a className="contact-link" href="mailto:your.email@example.com">Email</a>
             <a className="contact-link" href="https://www.linkedin.com/in/albertjseo" target="_blank" rel="noreferrer">LinkedIn</a>
             <a className="contact-link" href="https://github.com/albertjseo" target="_blank" rel="noreferrer">GitHub</a>
+            <a className="contact-link" href="https://pubmed.ncbi.nlm.nih.gov/?term=albert+j.+seo" target="_blank" rel="noreferrer">PubMed</a>
           </div>
         </div>
 
