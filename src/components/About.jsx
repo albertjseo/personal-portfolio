@@ -11,11 +11,11 @@ export default function About() {
           </p>
 
           <p className="about-text">
-            My work bridges bioinformatics and data engineering. I focus on designing scalable data pipelines, automation, and scientific software that bring engineering reliability to large datasets and research workflows.
+            My work bridges research and data engineering. I focus on designing scalable data pipelines, automation, and scientific software that bring engineering reliability to large datasets and research workflows.
           </p>
 
           <div className="about-grid">
-            <div className="about-pill">Computational & Structural Biology</div>
+            <div className="about-pill">Bioinformatics</div>
             <div className="about-pill">Python-based Pipelines</div>
             <div className="about-pill">Data Science & Modeling</div>
             <div className="about-pill">Reproducible Workflows</div>
@@ -26,7 +26,6 @@ export default function About() {
           <h3>What I focus on</h3>
           <ul className="skills-list">
             <li>Protein structure workflows (prediction, design, visualization)</li>
-            <li>Sequence analysis and similarity search</li>
             <li>Data wrangling, modeling, and visualization</li>
           </ul>
         </div>
