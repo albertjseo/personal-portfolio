@@ -256,6 +256,7 @@ a {
   padding: 1.5rem;
   box-shadow: 0 18px 45px rgba(15, 23, 42, 0.9);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  margin-bottom: 1.25rem;
 }
 
 .glass-card:hover {
@@ -367,14 +368,16 @@ a {
 }
 
 .timeline-title {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .timeline-meta {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
-  margin-bottom: 0.35rem;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .timeline-text {
@@ -384,8 +387,9 @@ a {
 
 .experience-item {
   display: flex;
+  min-height: 72px;
+  gap: 0.85rem;
   align-items: center;
-  gap: 1rem;
 }
 
 .experience-logo,
@@ -401,7 +405,10 @@ a {
 }
 
 .experience-content {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.15rem;
 }
 
 .experience-separator {
@@ -424,6 +431,57 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   white-space: nowrap;
+}
+
+/* === PUBLICATIONS === */
+.pub-card {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.pub-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin: 0;
+  line-height: 1.35;
+}
+
+.pub-journal {
+  font-size: 0.85rem;
+  color: var(--accent2);
+  font-weight: 500;
+  margin: 0;
+}
+
+.pub-authors {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  margin: 0;
+}
+
+.author-me {
+  color: var(--accent2);
+  font-weight: 600;
+}
+
+.pub-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.pub-tags span {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent-soft);
+  background: rgba(15, 23, 42, 0.8);
+  color: var(--text-muted);
 }
 
 /* === CONTACT === */

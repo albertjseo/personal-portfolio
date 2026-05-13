@@ -36,8 +36,6 @@ export default function Experience() {
         </div>
       </div>
 
-      <br />
-
       <div className="glass-card fade-up">
         <div className="experience-item">
           <img src="/logos/uw-logo.png" alt="UW Logo" className="experience-logo-small" />
@@ -48,8 +46,6 @@ export default function Experience() {
           </div>
         </div>
       </div>
-
-      <br />
 
       <div className="glass-card fade-up">
         <div className="experience-item">
@@ -80,8 +76,6 @@ export default function Experience() {
           </div>
         </div>
       </div>
-
-      <br />
 
       <div className="glass-card fade-up">
         <div className="experience-item">
