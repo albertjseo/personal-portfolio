@@ -7,13 +7,11 @@ export default function About() {
       <div className="about-layout">
         <div className="glass-card fade-up">
           <p className="about-text">
-            I’m a computational scientist with a foundation in molecular biology and hands‑on experience building data pipelines.
-            I develop systems that transform raw data into interpretable, reproducible insights—spanning analysis, workflows, and large‑scale comparative modeling.
+            I build computational tools and workflows that support modern research — including protein modeling, sequence analysis, and large‑scale data processing.
           </p>
 
           <p className="about-text">
-            My work sits at the intersection of bioinformatics, data engineering, and scientific computing.
-            I care deeply about reproducibility, documentation, and building tools that researchers can trust—whether.
+            My work bridges bioinformatics and data engineering. I focus on designing scalable data pipelines, automation, and scientific software that bring engineering reliability to large datasets and research workflows.
           </p>
 
           <div className="about-grid">
