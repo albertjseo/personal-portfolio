@@ -18,8 +18,6 @@ export default function Hero() {
         </p>
 
         <div className="hero-tags">
-          <span className="hero-tag">Protein Structure</span>
-          <span className="hero-tag">Structural Biology</span>
           <span className="hero-tag">Python Pipelines</span>
           <span className="hero-tag">Data Engineering</span>
           <span className="hero-tag">Data Analysis & Visualization</span>
