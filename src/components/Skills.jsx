@@ -2,9 +2,7 @@ export default function Skills() {
   return (
     <section id="skills" className="section">
       <h2 className="section-title">Skills</h2>
-      <p className="section-subtitle">
-        Combining domain knowledge in biology with computational and data engineering skills.
-      </p>
+      <p className="section-subtitle"></p>
 
       <div className="skills-grid">
         <div className="glass-card fade-up">
