@@ -3,14 +3,13 @@ export default function Contact() {
     <section id="contact" className="section">
       <h2 className="section-title">Contact</h2>
       <p className="section-subtitle">
-        Open to roles in bioinformatics, data science, and computational biology.
+        Open to bioinformatics and data science roles.
       </p>
 
       <div className="contact-grid">
 
         <div className="glass-card fade-up">
           <p className="about-text">
-            I enjoy designing workflows that are technically sound and practical for scientific teams.
             If you believe my background aligns with your needs, I’d be glad to connect.
           </p>
         </div>
