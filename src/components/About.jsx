@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-layout">
         <div className="glass-card fade-up">
           <p className="about-text">
-            I build computational tools and workflows that support modern research — including protein modeling, sequence analysis, and large‑scale data processing.
+            I build computational tools and workflows that support modern research and data-driven storytelling and decision making.
           </p>
 
           <p className="about-text">
