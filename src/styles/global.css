@@ -305,6 +305,13 @@ a {
   gap: 1.5rem;
 }
 
+.skills-grid .glass-card {
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .skills-list {
   list-style: disc;
   padding: 0 0 0 1.5rem;
