@@ -38,7 +38,7 @@ export default function Skills() {
           </div>
 
           {/* Wet Lab & Structural Biology */}
-          <div className="glass-card fade-up">
+          {/* <div className="glass-card fade-up">
             <h3>Protein Science & Structural Biology</h3>
             <ul className="skills-list">
               <li>SEC, Affinity Purification, Protein Purification</li>
@@ -55,7 +55,7 @@ export default function Skills() {
               <li>Adherent & Suspension Culture, PBMCs</li>
               <li>Human & Murine Cell Line Handling</li>
             </ul>
-          </div>
+          </div> */}
 
       </div>
     </section>
