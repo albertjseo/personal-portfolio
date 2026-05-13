@@ -23,8 +23,6 @@ export default function Experience() {
         </div>
       </div>
 
-      <br />
-
       <div className="glass-card fade-up">
         <div className="experience-item">
           <img src="/logos/costco-logo.png" alt="Costco Logo" className="experience-logo-small" />
