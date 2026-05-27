@@ -11,7 +11,7 @@ export default function About() {
           </p>
 
           <p className="about-text">
-            My work bridges research and data engineering. I focus on designing scalable data pipelines, automation, and scientific software that bring engineering reliability to large datasets and research workflows.
+            I work at the intersection of data science and bioinformatics, building scalable Python pipelines and computational tools for analyzing a variety of datasets.
           </p>
 
           <div className="about-grid">
