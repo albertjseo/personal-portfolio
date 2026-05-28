@@ -11,7 +11,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero-subtitle">
-          I build data-driven computational tools for biological research — combining data science, bioinformatics, and software engineering.
+          I bring a unique blend of data science, bioinformatics, and software engineering.
           With 5+ years of experience working at Seattle Children's Research Institute and the University of Washington, I've developed
           a deep understanding of data-driven environments and the biomedical field. Combining my programming skills and critical thinking, I
           aim to leverage my expertise to contribute to advancements in data science and data-driven storytelling.
