@@ -366,6 +366,13 @@ a {
   gap: 1.5rem;
 }
 
+.projects-grid .glass-card {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .project-text {
   color: var(--text-muted);
   font-size: 0.9rem;
