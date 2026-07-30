@@ -11,7 +11,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero-subtitle">
-          I bring a unique blend of data engineering, computational data science, and bioinformatics.
+          I bring a unique blend of data engineering, data science, and bioinformatics.
           With 5+ years of experience across Seattle Children’s Research Institute and the University of Washington,
           I’ve built scalable pipelines, automated workflows, and reproducible analytics systems in data‑driven scientific environments.
           My background in computational methods and biomedical data gives me a strong foundation for engineering reliable data systems and
@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="hero-tags">
           <span className="hero-tag">Python Pipelines</span>
           <span className="hero-tag">Data Engineering</span>
-          <span className="hero-tag">Data Analysis & Visualization</span>
+          <span className="hero-tag">Data Science</span>
         </div>
 
         <a href="#skills" className="hero-cta">View Skills</a>
