@@ -5,25 +5,27 @@ export default function Skills() {
       <p className="section-subtitle"></p>
 
       <div className="skills-grid">
-          {/* Core Computational Skills */}
+          {/* Data Engineering & Programming */}
+          <div className="glass-card fade-up">
+            <h3>Data Engineering & Programming</h3>
+            <ul className="skills-list">
+              <li>Python, SQL, JavaScript, MATLAB</li>
+              <li>Pandas, NumPy, Requests, Matplotlib/Seaborn</li>
+              <li>Flask, React, Google Apps Script, BigQuery</li>
+              <li>Git, Shell Scripting, HTML/CSS</li>
+              <li>ETL Pipelines, Data Modeling, API Integration</li>
+            </ul>
+          </div>
+
+          {/* Bioinformatics & Scientific Computing */}
           <div className="glass-card fade-up">
             <h3>Bioinformatics & Scientific Computing</h3>
             <ul className="skills-list">
               <li>BLAST, PAUP, Chimera, ImageJ, FlowJo, GraphPad Prism, SnapGene</li>
               <li>AlphaFold3 (structure prediction)</li>
-              <li>Comparative Modeling</li>
-              <li>Structural Analysis</li>
+              <li>Comparative Modeling & Structural Analysis</li>
               <li>Protein–Protein Interactions</li>
               <li>Sequence Analysis Workflows</li>
-            </ul>
-          </div>
-
-          <div className="glass-card fade-up">
-            <h3>Programming & Data Engineering</h3>
-            <ul className="skills-list">
-              <li>Python, SQL, MATLAB, JavaScript</li>
-              <li>HTML/CSS, Git, Shell Scripting</li>
-              <li>Flask, React, Google Apps Script, BigQuery</li>
             </ul>
           </div>
 
@@ -34,6 +36,7 @@ export default function Skills() {
               <li>Linux Systems, Bash Scripting</li>
               <li>HPC Clusters, SLURM Scheduling</li>
               <li>Parallelization, Job Arrays, Workflow Optimization</li>
+              <li>Reproducible Pipelines & Distributed Processing</li>
             </ul>
           </div>
 
