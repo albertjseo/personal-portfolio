@@ -14,22 +14,22 @@ export default function Experience() {
       {/* Work Experience */}
       <div className="glass-card fade-up">
         <div className="experience-item">
-          <img src="/logos/uiuc-logo.png" alt="UIUC Logo" className="experience-logo-small" />
+          <img src="/logos/costco-logo.png" alt="Costco Logo" className="experience-logo-small" />
           <div className="experience-content">
-            <div className="timeline-title">Bioinformatician</div>
-            <div className="timeline-meta">University of Illinois Urbana-Champaign - GCA Lab</div>
-           <div className="timeline-meta">March 2026 - August 2026</div>
+            <div className="timeline-title">Data Analyst III, Data Analyst II</div>
+            <div className="timeline-meta">Costco Corporate</div>
+            <div className="timeline-meta">June 2024 - Present</div>
           </div>
         </div>
       </div>
 
       <div className="glass-card fade-up">
         <div className="experience-item">
-          <img src="/logos/costco-logo.png" alt="Costco Logo" className="experience-logo-small" />
+          <img src="/logos/uiuc-logo.png" alt="UIUC Logo" className="experience-logo-small" />
           <div className="experience-content">
-            <div className="timeline-title">Data Analyst III, Data Analyst II</div>
-            <div className="timeline-meta">Costco Corporate</div>
-            <div className="timeline-meta">June 2024 - Present</div>
+            <div className="timeline-title">Bioinformatician</div>
+            <div className="timeline-meta">University of Illinois Urbana-Champaign - GCA Lab</div>
+           <div className="timeline-meta">March 2026 - August 2026</div>
           </div>
         </div>
       </div>
