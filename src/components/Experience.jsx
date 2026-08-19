@@ -18,7 +18,7 @@ export default function Experience() {
           <div className="experience-content">
             <div className="timeline-title">Bioinformatician</div>
             <div className="timeline-meta">University of Illinois Urbana-Champaign - GCA Lab</div>
-           <div className="timeline-meta">March 2026 - Present</div>
+           <div className="timeline-meta">March 2026 - August 2026</div>
           </div>
         </div>
       </div>
